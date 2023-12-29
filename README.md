@@ -89,3 +89,31 @@ This diagram serves as a blueprint for implementing the system, ensuring that th
 ![UML Diagram](src/main/resources/uml_diagram.png)
 
 
+
+
+## High-Level Design Overview
+
+The diagram above illustrates the core components of the system:
+
+- `TravelPackage`: The central entity representing a travel package offered by the agency. It includes multiple destinations and enrolls passengers.
+
+- `Destination`: Represents a location within a travel package. Each destination is linked to a set of activities that passengers can participate in.
+
+- `Activity`: Activities available at each destination. An activity has a name, description, cost, and capacity.
+
+- `Passenger`: Abstract representation of a person enrolled in a travel package. There are specific types of passengers:
+
+   - `StandardPassenger`: A passenger with a balance that decreases with each enrolled activity.
+   - `GoldPassenger`: Similar to a standard passenger but receives a discount for activities.
+   - `PremiumPassenger`: Can enroll in activities at no cost.
+
+## Interactions
+
+- **includes**: A `TravelPackage` includes one or more `Destinations`.
+- **enrolls**: A `Passenger` enrolls in a `TravelPackage`.
+- **participates in**: A `Passenger` participates in an `Activity`.
+
+Each component and interaction is designed to fulfill the requirements specified for the travel package system, ensuring a comprehensive experience for both travel agencies and customers.
+
+
+![High-Level Design](src/main/resources/high-level-design-image.jpeg)
