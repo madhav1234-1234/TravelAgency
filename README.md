@@ -5,7 +5,6 @@ To use this repository:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/madhav1234-1234/TravelAgency.git
-Replace [Your-Username] and [Repository-Name] with your GitHub username and the repository name, respectively.
 
 Open the Project:
 
