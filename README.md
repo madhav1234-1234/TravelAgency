@@ -86,7 +86,7 @@ Below is the UML class diagram representing the system design for a travel agenc
 
 This diagram serves as a blueprint for implementing the system, ensuring that the software components are well-defined and adhere to object-oriented design principles.
 
-![UML Diagram](src/main/resources/uml_diagram.png)
+![UML Diagram](src/main/resources/uml_diagram.jpeg)
 
 
 
