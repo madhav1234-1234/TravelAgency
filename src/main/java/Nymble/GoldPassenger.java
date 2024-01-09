@@ -46,6 +46,7 @@ public class GoldPassenger extends StandardPassenger {
     public void printDetails() {
         System.out.println("Gold Passenger: " + getName() + ", Number: " + getPassengerNumber());
         System.out.println("Balance: " + getBalance());
+
         // Print enrolled activities (inherited from StandardPassenger)
     }
 }

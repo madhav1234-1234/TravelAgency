@@ -54,8 +54,9 @@ public class StandardPassenger extends Passenger {
         System.out.println("Balance: " + balance);
         System.out.println("Enrolled Activities:");
         for (Activity activity : enrolledActivities) {
-            System.out.println("- " + activity.getName() + ", Cost: " + activity.getCost());
+            System.out.println("- " + activity.getName() + ", Cost: " + activity.getCost()   );
         }
+
     }
 
     /**

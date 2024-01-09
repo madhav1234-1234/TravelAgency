@@ -3,15 +3,15 @@ package main.java.Nymble;
 public class Main {
     public static void main(String[] args) {
         // Tour 1: European Tour
-        TravelPackage europeanTour = new TravelPackage("European Tour", 30);
+        TravelPackage europeanTour = new TravelPackage("European Tour", 3000);
         setupEuropeanTour(europeanTour);
 
         // Tour 2: Asian Adventure
-        TravelPackage asianAdventure = new TravelPackage("Asian Adventure", 25);
+        TravelPackage asianAdventure = new TravelPackage("Asian Adventure", 2500);
         setupAsianAdventure(asianAdventure);
 
         // Tour 3: American Expedition
-        TravelPackage americanExpedition = new TravelPackage("American Expedition", 20);
+        TravelPackage americanExpedition = new TravelPackage("American Expedition", 2000);
         setupAmericanExpedition(americanExpedition);
 
         // Print details of each tour

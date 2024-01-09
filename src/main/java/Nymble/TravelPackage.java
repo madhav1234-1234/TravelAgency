@@ -61,9 +61,18 @@ public class TravelPackage {
     public void printItinerary() {
         System.out.println("Travel Package: " + name);
         for (Destination destination : itinerary) {
+
             System.out.println("Destination: " + destination.getName());
             for (Activity activity : destination.getActivities()) {
                 System.out.println(" - Activity: " + activity.getName() + ", Cost: " + String.format("%.1f", activity.getCost()) + ", Capacity: " + activity.getCapacity() + ", Description: " + activity.getDescription());
+            }
+        }
+
+        for (Destination destination : itinerary) {
+            List<Activity> availableActivities = destination.getAvailableActivities();
+            System.out.println("All available activities at destination :" + destination.getName());
+            for (Activity activity : availableActivities) {
+                System.out.println(" - Activity: " + activity.getName() + ", Cost: " + String.format("%.1f", activity.getCost()) + ", Capacity: " + activity.getCapacity() + ", Description: " + activity.getDescription() + ", Available spaces " + activity.getSpaceAvailableInActivity());
             }
         }
     }
@@ -136,3 +145,8 @@ public class TravelPackage {
         this.passengerCapacity = passengerCapacity;
     }
 }
+
+
+
+
+
