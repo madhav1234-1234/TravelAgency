@@ -5,7 +5,6 @@ To use this repository:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/madhav1234-1234/TravelAgency.git
-Replace [Your-Username] and [Repository-Name] with your GitHub username and the repository name, respectively.
 
 Open the Project:
 
@@ -59,14 +58,7 @@ The project includes unit tests for essential classes:
 
 Compile and execute the `Main` class to see the system in action. It demonstrates the setup of travel packages with different destinations, activities, and passenger enrollments.
 
-## **Contributing**
 
-Contributions are welcome. Follow these steps:
-
-1. **Fork the Repository:** Create your own fork of the project.
-2. **Create a New Branch:** Work on your feature in a separate branch.
-3. **Commit Changes:** Commit your enhancements or fixes.
-4. **Submit a Pull Request:** Open a pull request with a comprehensive description of changes.
 
 
 
